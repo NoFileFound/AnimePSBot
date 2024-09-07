@@ -1,0 +1,11 @@
+{
+	"4214": {
+		"name": "DISPATCH_REGION_DECRYPT_FAIL",
+		"type": "Critical",
+		"code": 4214,
+		"description": "This error occurs when the client (game) fails to decrypt the region (query_region_list/query_cur_region request).",
+		"problems": [
+			"You are not using any RSA Patch."
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"FORBID_PLAYER_DATA_ERROR": {
+		"msg": "Modifying the game itself using unity tools from github."
+	},
+	"FORBID_CHEATING_PLUGINS": {
+		"msg": "The most common ban reason which player can get. (Using external programs or cheats while playing in the game.)"
+	},
+	"FORBID_LOGIN_DEDFAUT": {
+		"msg": "The default ban reason."
+	},
+	"FORBID_ABNORMAL_BEHAVIOR": {
+		"msg": "The anticheat caught you doing something suspicious in the game like disabling it or using any exploits to prevent it from malfunc."
+	}
+}
