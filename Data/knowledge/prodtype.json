@@ -1,0 +1,72 @@
+{
+	"PRODUCTION_CN": {
+		"id": 0,
+		"url": "https://user.mihoyo.com/",
+		"descrption": "The release login page for chinese version."
+	},
+	"SANDBOX_CN": {
+		"id": 1,
+		"url": "https://webstatic-test.mihoyo.com/mihoyo/common/accountSystemSandboxFE/index.html",
+		"descrption": "The sandbox login page for chinese version."
+	},
+	"PRODUCTION_OS": {
+		"id": 2,
+		"url": "https://user.mihoyo.com/",
+		"descrption": "The release login page for overseas version."
+	},
+	"SANDBOX_OS": {
+		"id": 3,
+		"url": "https://account-pre.hoyoverse.com/sandbox/index.html",
+		"descrption": "The sandbox login page for overseas version."
+	},
+	"PRODUCTION_PRE_RELEASE_CN": {
+		"id": 4,
+		"url": "https://webstatic-test.mihoyo.com/mihoyo/common/accountSystemPreFE/index.html",
+		"descrption": "The pre-release login page for chinese version."
+	},
+	"PRODUCTION_PRE_RELEASE_OS": {
+		"id": 5,
+		"url": "https://account-pre.hoyoverse.com/index.html",
+		"descrption": "The pre-release login page for overseas version."
+	},
+	"TEST_CN": {
+		"id": 6,
+		"url": "https://webstatic-test.mihoyo.com/mihoyo/common/accountSystemFE/index.html",
+		"descrption": "The debug variant of login page for chinese version."
+	},
+	"TEST_OS": {
+		"id": 7,
+		"url": "https://account-test.hoyoverse.com/index.html",
+		"descrption": "The debug variant of login page for overseas version."
+	},
+	"PET_CN": {
+		"id": 8,
+		"url": "",
+		"descrption": ""
+	},
+	"BETA_CN": {
+		"id": 9,
+		"url": "https://user.mihoyo.com/",
+		"descrption": "The release login page for beta version of chinese variant."
+	},
+	"BETA_CN_PRE": {
+		"id": 10,
+		"url": "",
+		"descrption": "The pre-release login page for beta version of chinese variant."
+	},
+	"BETA_OS": {
+		"id": 11,
+		"url": "https://account.hoyoverse.com/index.html",
+		"descrption": "The release login page for beta version of overseas variant."
+	},
+	"HOTFIX_CN": {
+		"id": 19,
+		"url": "https://account-test.hoyoverse.com/index.html",
+		"descrption": ""
+	},
+	"HOTFIX_OS": {
+		"id": 20,
+		"url": "https://account-test.hoyoverse.com/index.html",
+		"descrption": ""
+	}
+}

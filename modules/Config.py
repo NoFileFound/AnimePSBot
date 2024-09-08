@@ -8,6 +8,8 @@ class Database:
         # Knowledge db
         self.badReasonData = self.OpenFile("./knowledge/baninfo.json")
         self.errorCodeData = self.OpenFile("./knowledge/errorc.json")
+        self.regionConfData = self.OpenFile("./knowledge/regionconf.json")
+        self.prodtypeConfData = self.OpenFile("./knowledge/prodtype.json")
 
     def OpenFile(self, file):
         data = ""
@@ -18,6 +20,8 @@ class Database:
     def Reload(self):
         self.badReasonData = self.OpenFile("./knowledge/baninfo.json")
         self.errorCodeData = self.OpenFile("./knowledge/errorc.json")
+        self.regionConfData = self.OpenFile("./knowledge/regionconf.json")
+        self.prodtypeConfData = self.OpenFile("./knowledge/prodtype.json")
     
     def SaveFile(self, file, data) -> None:
         with open(f"./Data/{file}", "w") as F:

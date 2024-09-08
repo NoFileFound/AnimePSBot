@@ -1,0 +1,106 @@
+{
+	"client": [
+		{
+			"name": "sdkenv",
+			"var": "Str",
+			"description": "Region environment id"
+		},
+		{
+			"name": "codeSwitch",
+			"var": "IntArray",
+			"description": ""
+		},
+		{
+			"name": "coverSwitch",
+			"var": "IntArray",
+			"description": ""
+		},
+		{
+			"name": "engineCodeSwitch",
+			"var": "IntArray",
+			"description": ""
+		},
+		{
+			"name": "homeItemFilter",
+			"var": "Int",
+			"description": ""
+		},
+		{
+			"name": "showexception",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "regionConfig",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "downloadMode",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "downloadThreadNum",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "regionDispatchType",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "loadPatch",
+			"var": "Str",
+			"description": ""
+		}
+	],
+	"server": [
+		{
+			"name": "perf_report_config_url",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "perf_report_record_url",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "downloadIgnore403",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "enableMallPay",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "banServerRedPoints",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "downloadExcludeUselessRes",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "loadPatchAtGlobalDispatch",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "useLimitOptimization",
+			"var": "Str",
+			"description": ""
+		},
+		{
+			"name": "downloadEnableXXhash",
+			"var": "Str",
+			"description": ""
+		}
+	]
+}
