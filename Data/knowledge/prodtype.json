@@ -2,42 +2,42 @@
 	"PRODUCTION_CN": {
 		"id": 0,
 		"url": "https://user.mihoyo.com/",
-		"descrption": "The release login page for chinese version."
+		"descrption": "The release region environment (login page) on chinese language of GI."
 	},
 	"SANDBOX_CN": {
 		"id": 1,
 		"url": "https://webstatic-test.mihoyo.com/mihoyo/common/accountSystemSandboxFE/index.html",
-		"descrption": "The sandbox login page for chinese version."
+		"descrption": "The sandbox region environment (login page) on chinese language of GI."
 	},
 	"PRODUCTION_OS": {
 		"id": 2,
 		"url": "https://user.mihoyo.com/",
-		"descrption": "The release login page for overseas version."
+		"descrption": "The release region environment (login page) on english language (overseas) of GI."
 	},
 	"SANDBOX_OS": {
 		"id": 3,
 		"url": "https://account-pre.hoyoverse.com/sandbox/index.html",
-		"descrption": "The sandbox login page for overseas version."
+		"descrption": "The sandbox region environment (login page) on english language (overseas) of GI."
 	},
 	"PRODUCTION_PRE_RELEASE_CN": {
 		"id": 4,
 		"url": "https://webstatic-test.mihoyo.com/mihoyo/common/accountSystemPreFE/index.html",
-		"descrption": "The pre-release login page for chinese version."
+		"descrption": "The pre-release region environment (login page) on chinese language of GI."
 	},
 	"PRODUCTION_PRE_RELEASE_OS": {
 		"id": 5,
 		"url": "https://account-pre.hoyoverse.com/index.html",
-		"descrption": "The pre-release login page for overseas version."
+		"descrption": "The pre-release region environment (login page) on english language (overseas) of GI."
 	},
 	"TEST_CN": {
 		"id": 6,
 		"url": "https://webstatic-test.mihoyo.com/mihoyo/common/accountSystemFE/index.html",
-		"descrption": "The debug variant of login page for chinese version."
+		"descrption": "The test version of login page on chinese language of GI."
 	},
 	"TEST_OS": {
 		"id": 7,
 		"url": "https://account-test.hoyoverse.com/index.html",
-		"descrption": "The debug variant of login page for overseas version."
+		"descrption": "The test version of login page on english language of GI"
 	},
 	"PET_CN": {
 		"id": 8,
@@ -47,17 +47,22 @@
 	"BETA_CN": {
 		"id": 9,
 		"url": "https://user.mihoyo.com/",
-		"descrption": "The release login page for beta version of chinese variant."
+		"descrption": "The release version of login page on chinese language of beta GI."
 	},
 	"BETA_CN_PRE": {
 		"id": 10,
 		"url": "",
-		"descrption": "The pre-release login page for beta version of chinese variant."
+		"descrption": "The pre-release version of login page on chinese language of beta GI."
 	},
 	"BETA_OS": {
 		"id": 11,
 		"url": "https://account.hoyoverse.com/index.html",
-		"descrption": "The release login page for beta version of overseas variant."
+		"descrption": "The release version of login page on english language of beta GI."
+	},
+	"BETA_OS_PRE": {
+		"id": 12,
+		"url": "https://account.hoyoverse.com/index.html",
+		"descrption": "The pre-release version of login page on english language of beta GI."
 	},
 	"HOTFIX_CN": {
 		"id": 19,
@@ -65,7 +70,7 @@
 		"descrption": ""
 	},
 	"HOTFIX_OS": {
-		"id": 20,
+		"id": 22,
 		"url": "https://account-test.hoyoverse.com/index.html",
 		"descrption": ""
 	}

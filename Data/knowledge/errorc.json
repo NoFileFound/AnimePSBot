@@ -1,5 +1,202 @@
 {
-	"4214": {
+	"-9000": {
+		"name": "RESOURCE_URL_FORMAT_INVALID",
+		"type": "Medium",
+		"code": -9000,
+		"description": "The format of the URL could not be determined.",
+		"problems": [
+			"Bad internet connection.",
+			"The server url is invalid."
+		]
+	},
+	"-9107": {
+		"name": "RESOURCE_URL_NOT_FOUND",
+		"type": "Critical",
+		"code": -9107,
+		"description": "The resource was not found in the server.",
+		"problems": [
+			"The resource is not found",
+			"ISP Blocked"
+		]
+	},
+	"-9908": {
+		"name": "RESOURCE_VERIFY_HASH_MISMATCH",
+		"type": "Critical",
+		"code": -9908,
+		"description": "Hash mismatch between client and server. (half md5)",
+		"problems": [
+			"Bad resource files"
+		]
+	},
+    "4001": {
+        "name": "NETWORK_DISCONNECT_GOBACKHOME",
+        "type": "Critical",
+        "code": 4001,
+        "description": "",
+        "problems": []
+    },
+    "4002": {
+        "name": "NETWORK_RECONNECT_GATE_FAIL",
+        "type": "Critical",
+        "code": 4002,
+        "description": "",
+        "problems": []
+    },
+    "4003": {
+        "name": "NETWORK_CONNECT_CLIENT_NOT_NULL",
+        "type": "Critical",
+        "code": 4003,
+        "description": "",
+        "problems": []
+    },
+    "4004": {
+        "name": "NETWORK_CONNECT_CLIENT_INIT_FAIL",
+        "type": "Critical",
+        "code": 4004,
+        "description": "",
+        "problems": []
+    },
+    "4005": {
+        "name": "NETWORK_LOGIN_EXCEPTION",
+        "type": "Critical",
+        "code": 4005,
+        "description": "",
+        "problems": []
+    },
+    "4006": {
+        "name": "NETWORK_CONNECT_GATE_FAIL",
+        "type": "Critical",
+        "code": 4006,
+        "description": "",
+        "problems": []
+    },
+    "4007": {
+        "name": "NETWORK_DISCONNECT_STATE",
+        "type": "Critical",
+        "code": 4007,
+        "description": "",
+        "problems": []
+    },
+    "4008": {
+        "name": "NETWORK_SEND_PACKET_ERROR",
+        "type": "Critical",
+        "code": 4008,
+        "description": "Unable to send a packet.",
+        "problems": []
+    },
+    "4009": {
+        "name": "NETWORK_RECEIVE_PACKET_ERROR",
+        "type": "Critical",
+        "code": 4009,
+        "description": "Unable to receive a packet.",
+        "problems": []
+    },
+    "4010": {
+        "name": "NETWORK_EXCEPTION",
+        "type": "Critical",
+        "code": 4010,
+        "description": "",
+        "problems": []
+    },
+    "4011": {
+        "name": "NETWORK_ERROR",
+        "type": "Critical",
+        "code": 4011,
+        "description": "",
+        "problems": []
+    },
+    "4201": {
+        "name": "DISPATCH_GLOBAL_GET_TIMEOUT",
+        "type": "Critical",
+        "code": 4201,
+        "description": "",
+        "problems": []
+    },
+    "4202": {
+        "name": "DISPATCH_GLOBAL_GET_ERROR",
+        "type": "Critical",
+        "code": 4202,
+        "description": "",
+        "problems": []
+    },
+    "4203": {
+        "name": "DISPATCH_GLOBAL_PARSE_EXCEPTION",
+        "type": "Critical",
+        "code": 4203,
+        "description": "",
+        "problems": []
+    },
+    "4204": {
+        "name": "DISPATCH_GLOBAL_PARSE_INVALID",
+        "type": "Critical",
+        "code": 4204,
+        "description": "",
+        "problems": []
+    },
+    "4205": {
+        "name": "DISPATCH_GLOBAL_CONFIG_PARSE_FAIL",
+        "type": "Critical",
+        "code": 4205,
+        "description": "",
+        "problems": []
+    },
+    "4206": {
+        "name": "DISPATCH_REGION_GET_TIMEOUT",
+        "type": "Critical",
+        "code": 4206,
+        "description": "",
+        "problems": []
+    },
+    "4207": {
+        "name": "DISPATCH_REGION_GET_ERROR",
+        "type": "Critical",
+        "code": 4207,
+        "description": "",
+        "problems": []
+    },
+    "4208": {
+        "name": "DISPATCH_REGION_PARSE_EXCEPTION",
+        "type": "Critical",
+        "code": 4208,
+        "description": "",
+        "problems": []
+    },
+    "4209": {
+        "name": "DISPATCH_REGION_PARSE_INVALID",
+        "type": "Critical",
+        "code": 4209,
+        "description": "",
+        "problems": []
+    },
+    "4210": {
+        "name": "DISPATCH_CONFIG_PARSE_EXCEPTION",
+        "type": "Critical",
+        "code": 4210,
+        "description": "",
+        "problems": []
+    },
+    "4211": {
+        "name": "DISPATCH_GLOBAL_CONFIG_PARSE_INVALID",
+        "type": "Critical",
+        "code": 4211,
+        "description": "",
+        "problems": []
+    },
+    "4212": {
+        "name": "DISPATCH_REGION_RSP_INVALID",
+        "type": "Critical",
+        "code": 4212,
+        "description": "",
+        "problems": []
+    },
+    "4213": {
+        "name": "DISPATCH_REGION_ERR_WITH_CODE",
+        "type": "Critical",
+        "code": 4213,
+        "description": "",
+        "problems": []
+    },
+    "4214": {
 		"name": "DISPATCH_REGION_DECRYPT_FAIL",
 		"type": "Critical",
 		"code": 4214,
@@ -7,5 +204,180 @@
 		"problems": [
 			"You are not using any RSA Patch."
 		]
-	}
+    },
+    "4215": {
+        "name": "DISPATCH_REGION_LOAD_PATCH_CONNECT_ERROR",
+        "type": "Critical",
+        "code": 4215,
+        "description": "",
+        "problems": []
+    },
+    "4301": {
+        "name": "LOGIN_TOKEN_GET_FAIL",
+        "type": "Critical",
+        "code": 4301,
+        "description": "",
+        "problems": []
+    },
+    "4302": {
+        "name": "LOGIN_PLAYER_LOGIN__FAIL",
+        "type": "Critical",
+        "code": 4302,
+        "description": "",
+        "problems": []
+    },
+    "4303": {
+        "name": "LOGIN_ENTER_SCENE_READY_FAIL",
+        "type": "Critical",
+        "code": 4303,
+        "description": "",
+        "problems": []
+    },
+    "4304": {
+        "name": "LOGIN_INIT_FINISH_FAIL",
+        "type": "Critical",
+        "code": 4304,
+        "description": "",
+        "problems": []
+    },
+    "4305": {
+        "name": "LOGIN_ENTER_SCENE_DONE_FAIL",
+        "type": "Critical",
+        "code": 4305,
+        "description": "",
+        "problems": []
+    },
+    "4306": {
+        "name": "LOGIN_POST_ENTER_SCENE_FAIL",
+        "type": "Critical",
+        "code": 4306,
+        "description": "",
+        "problems": []
+    },
+    "4307": {
+        "name": "LOGIN_ENTERTOKEN_INVALID",
+        "type": "Critical",
+        "code": 4307,
+        "description": "",
+        "problems": []
+    },
+    "4308": {
+        "name": "LOGIN_TASK_TIMEOUT",
+        "type": "Critical",
+        "code": 4308,
+        "description": "",
+        "problems": []
+    },
+    "4309": {
+        "name": "LOGIN_SEED_DERYPT_FAIL",
+        "type": "Critical",
+        "code": 4309,
+        "description": "",
+        "problems": []
+    },
+    "4310": {
+        "name": "LOGIN_GEN_RANDOM_FAIL",
+        "type": "Critical",
+        "code": 4310,
+        "description": "",
+        "problems": []
+    },
+    "4401": {
+        "name": "SDK_INIT_FAIL",
+        "type": "Critical",
+        "code": 4401,
+        "description": "",
+        "problems": []
+    },
+    "4402": {
+        "name": "SDK_LOGIN_FAIL",
+        "type": "Critical",
+        "code": 4402,
+        "description": "",
+        "problems": []
+    },
+    "4403": {
+        "name": "SDK_LOGOUT_FAIL",
+        "type": "Critical",
+        "code": 4403,
+        "description": "",
+        "problems": []
+    },
+    "4404": {
+        "name": "SDK_PAY_FAIL",
+        "type": "Critical",
+        "code": 4404,
+        "description": "",
+        "problems": []
+    },
+    "4405": {
+        "name": "SDK_GETTIER_FAIL",
+        "type": "Critical",
+        "code": 4405,
+        "description": "",
+        "problems": []
+    },
+    "4406": {
+        "name": "SDK_GET_MALLPRODUCT_FAIL",
+        "type": "Critical",
+        "code": 4406,
+        "description": "",
+        "problems": []
+    },
+    "4407": {
+        "name": "SDK_GET_BPPRODUCT_FAIL",
+        "type": "Critical",
+        "code": 4407,
+        "description": "",
+        "problems": []
+    },
+    "4408": {
+        "name": "SDK_HASPRODUCT_FAIL",
+        "type": "Critical",
+        "code": 4408,
+        "description": "",
+        "problems": []
+    },
+    "3000": {
+        "name": "AiStucked",
+        "type": "Critical",
+        "code": 3000,
+        "description": "",
+        "problems": []
+    },
+    "3001": {
+        "name": "AiLog",
+        "type": "Critical",
+        "code": 3001,
+        "description": "",
+        "problems": []
+    },
+    "2000": {
+        "name": "UploadLogError",
+        "type": "Critical",
+        "code": 2000,
+        "description": "",
+        "problems": []
+    },
+    "5000": {
+        "name": "SECError",
+        "type": "Critical",
+        "code": 5000,
+        "description": "",
+        "problems": []
+    },
+    "6000": {
+        "name": "Audio_NotDialogSpeechPoster",
+        "type": "Critical",
+        "code": 6000,
+        "description": "",
+        "problems": []
+    },
+    "6001": {
+        "name": "Audio_MissingDialogVoicePlugin",
+        "type": "Critical",
+        "code": 6001,
+        "description": "",
+        "problems": []
+    }
 }
